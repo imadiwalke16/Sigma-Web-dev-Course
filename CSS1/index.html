@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css----inline/internal/external----file types -->
+    <style>
+        /* element selector */
+        .Red{
+            /* class selector */
+            color: brown;
+            background-color: yellow;
+        }
+        #green{
+            /* id selector */
+            color: brown;
+            background-color: cadetblue;
+        }
+        /* child selector */
+        div>p{
+            color: blue;
+        }
+        /* descendent selector */
+        div p{
+            color: aquamarine;
+            background-color: bisque;
+
+        }
+    /* universal selector used to give margin and padding 0 */
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    /* pseudo selector */
+a:visited{
+    color: yellow;
+}
+a:link{
+color: crimson;
+}
+a:active{
+    background-color: blanchedalmond;
+}
+a:hover{
+    background-color: blueviolet;
+}
+p:first-child{
+    background-color: cornflowerblue;
+}
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="background-color: brown; color: azure;">ABOUT ME</h1>
+    <div class="one">
+        <p>hello</p>
+        <p>hello========1</p>
+    </div>
+    <div class="Red">
+        <p> hello : goes here child selector </p>
+        <ol>
+            <li>inline css</li>
+            <li>internal css</li>
+            <li>external css</li>
+        </ol>
+    
+    </div>
+    <span id="green">chal chal awey!
+        <p>hello Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum tenetur magni explicabo, nesciunt rem ipsa voluptate fugiat dolorum. Quidem cupiditate, omnis enim temporibus nesciunt fuga consequuntur similique. Praesentium eius voluptatem in vero dolorem minus.
+        </p>
+          </span>
+          <a href="www.google.com">google</a>
+          <a href="www.facebook2.com">javatpoint</a>
+  
+</body>
+</html>
